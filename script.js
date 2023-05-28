@@ -10,6 +10,7 @@ let mouse = {
 	x: 0,
 	y: 0,
 }
+console.log("hitgub")
 document.addEventListener("keydown", function(event) {
 	if (event.key == "r") {
 		for(let thing of boxList) {
